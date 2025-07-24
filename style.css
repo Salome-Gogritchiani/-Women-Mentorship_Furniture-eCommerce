@@ -315,9 +315,57 @@ article {
 }
 /* Footer */
 .footer {
-  background: #222;
-  color: #fff;
-  padding: 30px 0;
-  text-align: center;
-  margin-top: 60px;
+  width: 1440px;
+  height: 505px;
+  background-color: #FFFFFF;
+  box-sizing: border-box;
+  position: relative;
 }
+
+.footer-content {
+  width: 775px;
+  height: 312px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 48px;
+  margin-left: 80px;
+}
+
+.footer-column {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.funiro{
+  width: 85px;
+  height: 36px; 
+  margin-bottom: 50px;
+}
+.funiro-discription{
+  width: 285px;
+  height: 72px;
+}
+
+.funiro-discription p{
+  color: #9F9F9F;
+  font-weight: 400;
+  font-size: 16px;
+}
+.footer-column h4 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #000;
+  margin-bottom: 10px;
+}
+
+.footer-column a {
+  text-decoration: none;
+  color: #666;
+  font-size: 14px;
+  transition: color 0.2s;
+}
+
+.footer-column a:hover {
+  color: #000;
+}
+
