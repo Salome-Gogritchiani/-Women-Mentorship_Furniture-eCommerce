@@ -201,39 +201,38 @@ margin-top: 30px;
 
 
 /* description-section" */
-
 .discription {
   width: 1239px;
-  height: 631px;
+  height: auto;
   margin: 0 auto;
   padding: 20px;
   box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .title-row {
-font-weight: 500;
-font-style: Medium;
-font-size: 24px;
-line-height: 100%;
-letter-spacing: 0%;
-margin-top: 133px;
+  width: 462px;
+  height: 36px;
+  margin-top: 100px;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-start; /* მარცხნივ დაალაგებს შიგნით ელემენტებს */
+  align-items: flex-start;
   gap: 40px;
-  margin-bottom: 20px;
+  margin-left: -560px;
 }
 
-/* .title-row h2,
-.title-row  */
+.title-row h2 {
+  font-weight: 500;
+  font-size: 24px;
+  color: #000000;
+  
+}
 
 .info-title {
-
   font-weight: 400;
-  font-style: Regular;
   font-size: 24px;
-  line-height: 100%;
-  letter-spacing: 0%;
   color: #9F9F9F;
 }
 
@@ -243,35 +242,32 @@ article {
   gap: 20px;
   align-items: center;
   width: 1026px;
-  height: 174px;
-  margin-top: 37px;
+  height: auto;
+  margin-top: 37px; 
 }
 
 .paragraph {
   font-weight: 400;
-  font-style: Regular;
+  font-style: normal; /* გასწორებული */
   font-size: 16px;
   line-height: 100%;
-  letter-spacing: 0%;
+  letter-spacing: 0;
   text-align: justify;
   color: #9F9F9F;
-  
 }
 
 .images {
   display: flex;
   justify-content: space-between;
   margin-top: 30px;
+  gap: 10px; /* აქ იმუშავებს */
 }
 
 .images img {
   width: 605px;
   height: 348px;
-  gap: 10px;
   opacity: 1;
-  
 }
-
 
 
 
