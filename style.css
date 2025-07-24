@@ -210,6 +210,7 @@ margin-top: 30px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 130px;
 }
 
 .title-row {
@@ -270,92 +271,48 @@ article {
 }
 
 
+/* advantages-section */
 
 
-/* Hero */
-.hero {
-  padding: 80px 0;
-  background-color: #f8f8f8;
-}
-
-.hero-content {
+.advantages-section {
+  width: 1440px;
+  height: 270px;
+  margin: 0 auto;
+  padding-top: 100px;
+  padding-bottom: 100px;
   display: flex;
-  align-items: center;
+  justify-content: center; /* ცენტრში მოაქცევს შიგნითა კონტეინერს */
+  background-color: #FAF3EA; /* სურვილისამებრ */
+  box-sizing: border-box;
+}
+
+.advantages-container {
+  width: 1334px;
+  height: 70px;
+  display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
+  align-items: center;
 }
 
-.hero-text {
-  max-width: 600px;
+.advantage-item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 5px;
 }
 
-.hero-text h1 {
-  font-size: 48px;
-  margin-bottom: 20px;
-  color: #222;
+.advantage-item h3 {
+  font-size: 25px;
+  font-weight: 600;
+  color:#242424;
+  margin: 0;
 }
 
-.hero-text p {
-  font-size: 18px;
-  margin-bottom: 30px;
-  color: #666;
-}
-
-.btn {
-  background-color: #d9822b;
-  color: #fff;
-  padding: 12px 30px;
-  border-radius: 5px;
-  font-weight: 500;
-  transition: background-color 0.3s ease;
-}
-
-.btn:hover {
-  background-color: #b56820;
-}
-
-.hero-image img {
-  max-width: 500px;
-  width: 100%;
-}
-
-/* Products */
-.section-title {
-  font-size: 32px;
-  margin-bottom: 40px;
-  text-align: center;
-}
-
-.product-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 30px;
-}
-
-.product-card {
-  background: #fff;
-  border-radius: 10px;
-  padding: 20px;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
-  text-align: center;
-}
-
-.product-card img {
-  max-width: 100%;
-  height: auto;
-  margin-bottom: 20px;
-}
-
-.product-card h3 {
+.advantage-item p {
   font-size: 20px;
-  margin-bottom: 10px;
+  margin: 0;
+  color: #898989;
 }
-
-.product-card p {
-  font-size: 16px;
-  color: #d9822b;
-}
-
 /* Footer */
 .footer {
   background: #222;
